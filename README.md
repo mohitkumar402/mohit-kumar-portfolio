@@ -1,6 +1,8 @@
 # Mohit Kumar - Portfolio
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experiences as a **Full-Stack Developer**.
+![image](https://github.com/user-attachments/assets/29af274d-e0a7-4795-ae39-10f734487c35)
+
 
 
 
