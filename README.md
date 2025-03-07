@@ -66,8 +66,8 @@ Make sure you have **Node.js** and **Git** installed on your system.
 ## 🌎 Deployment
 To deploy the project on **Vercel** or **Netlify**, follow their respective deployment guides.
 
-##📜 License
 
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📬 Contact
