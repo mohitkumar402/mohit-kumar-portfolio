@@ -37,9 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="personal portfolio"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/mohitkumar/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="A sleek and fully responsive personal portfolio website showcasing my skills, projects, and experience as a Full-Stack Developer. Built using React.js, Node.js, and MongoDB, this portfolio highlights my expertise in web development, includes a dynamic project showcase, and features smooth navigation and interactive elements."
+              ghLink="https://github.com/mohitkumar402/mohit-kumar-portfolio"
+              
             />
           </Col>
 
