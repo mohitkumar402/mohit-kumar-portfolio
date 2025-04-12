@@ -8,7 +8,7 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/image.png";
 
 import bitsOfCode from "../../Assets/Projects/blog.png";
-//import bitsOfCode1 from "../../Assets/Projects/bg2.jpg";
+import bitsOfCode1 from "../../Assets/Projects/tdp.jpg";
 import suicide from "../../Assets/Projects/bg2.jpg";
 
 function Projects() {
@@ -59,7 +59,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode1}
               isBlog={false}
               title="tradersplayground"
               description="crypto app tp trade on sample demo or papermoney."
