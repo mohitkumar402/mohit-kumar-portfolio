@@ -64,7 +64,7 @@ Make sure you have **Node.js** and **Git** installed on your system.
 5. Open **http://localhost:3000/** in your browser.
 
 ## 🌎 Deployment
-To deploy the project on **Vercel** or **Netlify**, follow their respective deployment guides.
+To deploy the project on **Vercel** follow their respective deployment guides.
 
 
 ## 📜 License
@@ -74,7 +74,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you have any questions or suggestions, feel free to reach out:
 - **Email:** mohitkumar62203.com
 - **LinkedIn:** [https://www.linkedin.com/in/mohit-kumar-851367168/]
-- **GitHub:** [Your GitHub](https://github.com/mohitkumar402)
+- **GitHub:** (https://github.com/mohitkumar402)
 
 ---
 
