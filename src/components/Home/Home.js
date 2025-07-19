@@ -4,10 +4,12 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import AdComponent from "../adcomponent";
 
 function Home() {
   return (
     <section>
+      <AdComponent />
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">

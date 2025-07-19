@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import AdComponent from "../adcomponent"; // adjust path if needed
+
 
 function About() {
   return (
@@ -39,6 +41,8 @@ function About() {
         </h1>
 
         <Techstack />
+        <AdComponent />
+
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use

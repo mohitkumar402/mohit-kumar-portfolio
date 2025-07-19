@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
+import AdComponent from "../adcomponent";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -21,6 +22,7 @@ function ProjectCards(props) {
 >
   {props.description}
 </Card.Text>
+        <AdComponent />
 
         
         

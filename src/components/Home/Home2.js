@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
+import AdComponent from "../adcomponent";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -9,8 +10,12 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Home2() {
+
   return (
+    
+  
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
@@ -111,5 +116,7 @@ function Home2() {
       </Container>
     </Container>
   );
+  <AdComponent /> 
+  // Add AdComponent here if needed
 }
 export default Home2;

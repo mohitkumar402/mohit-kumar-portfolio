@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import AdComponent from "../adcomponent";
 
 function Github() {
   return (
@@ -8,6 +9,7 @@ function Github() {
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
+      <AdComponent />
       <GitHubCalendar
         username="mohitkumar402"
         blockSize={15}
