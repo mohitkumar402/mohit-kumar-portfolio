@@ -6,6 +6,8 @@ import Particle from "../Particle";
 
 
 import chatify from "../../Assets/Projects/image.png";
+import spotify from "../../Assets/Projects/download (1).png";
+import admin from "../../Assets/Projects/admin.png";
 
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import bitsOfCode1 from "../../Assets/Projects/tdp.jpg";
@@ -77,8 +79,8 @@ function Projects() {
               description="Qwiket is an innovative ticket booking application currently under development, designed to redefine the way users experience entertainment. Whether it's the latest blockbuster, an edge-of-the-seat horror movie, or a high-voltage cricket match, Qwiket brings it all to your fingertips.
 
 Our platform aims to streamline the process of booking tickets for movies, cricket matches, and live shows, focusing on genres that excite and engage—like entertainment, thrillers, and horror. With a clean user interface, real-time availability updates, secure payments, and personalized recommendations, Qwiket is all set to become your go-to app for hassle-free ticketing."
-              ghLink="https://github.com/mohitkumar402/QUICKETT"
-              demoLink="https://quickett.vercel.app/"
+              ghLink="https://github.com/mohitkumar402/TICKET-BOOKING-APP"
+              demoLink="https://ticket-booking-app-theta.vercel.app/"
               
             />
           </Col>
@@ -93,7 +95,29 @@ Our platform aims to streamline the process of booking tickets for movies, crick
               demoLink="https://blockchain-based-voting-system-tbfe.vercel.app/"
             />
           </Col>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard 
+              imgPath={spotify}
+              isBlog={false}
+              title="spotify clone"
+              description="Spotify Clone is a web application that replicates the core features of the popular music streaming service, Spotify. Built using React.js and Node.js, this project allows users to search for songs, create playlists, and enjoy a seamless music listening experience."
+              ghLink="https://github.com/mohitkumar402/spotify-clone"
+              demoLink="https://spotify-clone-cyan-kappa-22.vercel.app/"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard 
+
+              imgPath={admin}
+                style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '8px' }} 
+              isBlog={false}
+              title="admin dashboard"
+              description="admin dashboard is a web application that provides a comprehensive interface for managing and monitoring various aspects of a system or service. Built using React.js, this dashboard allows administrators to view statistics, manage users, and perform administrative tasks efficiently and effectively"
+              ghLink="https://github.com/mohitkumar402/admindashboard"
+              demoLink="https://admindashboard-pi-tan.vercel.app/"
+            />
+          </Col>
           
         </Row>
       </Container>
