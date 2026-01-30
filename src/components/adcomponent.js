@@ -11,8 +11,8 @@ const AdComponent = () => {
   }, []);
 
   return (
-   <ins class="adsbygoogle"
-     style="display:block"
+   <ins className="adsbygoogle"
+     style={{ display: "block" }}
      data-ad-client="ca-pub-9301648195226858"
      data-ad-slot="7058096815"
      data-ad-format="auto"

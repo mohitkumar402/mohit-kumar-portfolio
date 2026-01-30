@@ -1,0 +1,3 @@
+# 301 permanent redirects (Netlify) – same blog, one post URL to another
+# Format: from    to    status
+/blog/post/old-slug    /blog/post/new-slug    301

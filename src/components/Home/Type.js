@@ -1,18 +1,13 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { getPortfolioHome } from "../../data/portfolioAdminStore";
 
 function Type() {
+  const { typeStrings } = getPortfolioHome();
   return (
     <Typewriter
       options={{
-        strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
-          "flutter Developer",
-          "website Developer",
-        ],
+        strings: typeStrings.length ? typeStrings : ["Software Developer"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

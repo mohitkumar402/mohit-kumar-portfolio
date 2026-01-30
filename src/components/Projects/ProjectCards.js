@@ -11,17 +11,19 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text
-  style={{
-    textAlign: "justify",
-    maxHeight: "100px",
-    overflowY: "auto",
-    paddingRight: "5px",
-  }}
-  className="project-description"
->
-  {props.description}
-</Card.Text>
+        <div className="project-description-wrap">
+          <Card.Text
+            style={{
+              textAlign: "justify",
+              maxHeight: "100px",
+              overflowY: "auto",
+              paddingRight: "5px",
+            }}
+            className="project-description"
+          >
+            {props.description}
+          </Card.Text>
+        </div>
         <AdComponent />
 
         

@@ -5,8 +5,10 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import AdComponent from "../adcomponent";
+import { getPortfolioHome } from "../../data/portfolioAdminStore";
 
 function Home() {
+  const { name } = getPortfolioHome();
   return (
     <section>
       <AdComponent />
@@ -23,8 +25,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name">  MOHIT KUMAR</strong>
+                I'm
+                <strong className="main-name">  {name}</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

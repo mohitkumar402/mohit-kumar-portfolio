@@ -1,46 +1,24 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { getPortfolioAbout } from "../../data/portfolioAdminStore";
 
 function AboutCard() {
+  const { cardIntro, activities, quote, quoteFooter } = getPortfolioAbout();
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">mohit kumar </span>
-            from <span className="purple">bihar, India.</span>
-            <br />
-            I am currently  a software engineer persuing btech.
-            <br />
-            I have completed diploma in computer science and engineering from parul university, vadodara.
-           
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
+          <p style={{ textAlign: "justify" }}>{cardIntro}</p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing valorant
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Listening to Music
-            </li>
-            <li className="about-activity">
-                <ImPointRight /> a bit of personal blogging
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Watching Movies and Series
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling and exploring mountains
-            </li>
+            {activities.map((item, i) => (
+              <li key={i} className="about-activity">
+                <ImPointRight /> {item}
+              </li>
+            ))}
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference! among one self"{" "}
-          </p>
-          <footer className="blockquote-footer">mohit</footer>
+          <p style={{ color: "rgb(155 126 172)" }}>&quot;{quote}&quot;</p>
+          <footer className="blockquote-footer">{quoteFooter}</footer>
         </blockquote>
       </Card.Body>
     </Card>

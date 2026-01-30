@@ -6,10 +6,11 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import AdComponent from "../adcomponent"; // adjust path if needed
-
+import AdComponent from "../adcomponent";
+import { getPortfolioAbout } from "../../data/portfolioAdminStore";
 
 function About() {
+  const { sectionHeadingSkills, sectionHeadingTools } = getPortfolioAbout();
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -24,7 +25,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I'm</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -37,15 +38,14 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">{sectionHeadingSkills}</strong>
         </h1>
 
         <Techstack />
         <AdComponent />
 
-
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">{sectionHeadingTools}</strong>
         </h1>
         <Toolstack />
 
