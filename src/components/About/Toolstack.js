@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import AdComponent from "../adcomponent";
 import {
   SiVisualstudiocode,
   SiPostman,

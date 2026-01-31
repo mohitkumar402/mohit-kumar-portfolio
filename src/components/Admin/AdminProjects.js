@@ -15,19 +15,9 @@ function AdminProjects() {
     setProjects(getPortfolioProjects());
   }, []);
 
-  const saveToStore = (list) => {
-    setPortfolioProjects(list);
-    setProjects(list);
-  };
-
   const showMsg = (text) => {
     setMessage(text);
     setTimeout(() => setMessage(""), 3000);
-  };
-
-  const handleAdd = () => {
-    setEditingIndex(null);
-    setForm(EMPTY_PROJECT);
   };
 
   const handleEdit = (e, index) => {

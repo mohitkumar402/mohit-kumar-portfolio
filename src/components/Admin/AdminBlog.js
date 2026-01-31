@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Table, Button } from "react-bootstrap";
-import { AiOutlinePlus, AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
+import { AiOutlinePlus } from "react-icons/ai";
 import { getStoredBlogs, deleteStoredBlog } from "../../utils/blogStorage";
 
 function AdminBlog() {
